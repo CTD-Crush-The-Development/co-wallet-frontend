@@ -1,3 +1,3 @@
 const test_function = () => {
-    return "test"
+  return 'test';
 };
