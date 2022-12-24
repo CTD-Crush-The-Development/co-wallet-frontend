@@ -1,3 +1,4 @@
 import Exchange from './Exchange';
+import Coin from './Coin';
 
-export { Exchange };
+export { Coin, Exchange };

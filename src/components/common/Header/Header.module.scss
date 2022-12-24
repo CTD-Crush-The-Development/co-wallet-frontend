@@ -45,4 +45,36 @@
     background-image: linear-gradient(#fff 2px, transparent 0, transparent 4px);
     background-size: 30px 6px;
   }
+
+  &[aria-pressed='true'] {
+    & ~ .navigation {
+      display: block;
+    }
+  }
+}
+
+.navigation {
+  display: none;
+  position: absolute;
+  top: 62px;
+  left: 20px;
+  width: 200px;
+  padding: 16px 0;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+}
+
+.link_sub {
+  display: block;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 44px;
+
+  &:hover {
+    background-color: #333;
+  }
+
+  &[aria-current='page'] {
+    background-color: #795bf8;
+  }
 }
