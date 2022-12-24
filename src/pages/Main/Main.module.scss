@@ -1,3 +1,8 @@
-.main {
-  background: yellow;
+.container {
+  max-width: 656px;
+  // 화면 높이 - (헤더 + 푸터 + 마진 간격)
+  min-height: calc(100vh - 202px);
+  margin: 20px auto;
+  border-radius: 15px;
+  background: #222;
 }
